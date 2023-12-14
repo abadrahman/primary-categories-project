@@ -1,0 +1,17 @@
+{
+	"name": "abadrahman/primary-category-project",
+	"description": "Primary category project",
+	"type": "wordpress-plugin",
+	"autoload": {
+		"psr-4": {
+			"MAR\\PrimaryCategory\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "abadrahman",
+			"email": "abadrahman@outlook.com"
+		}
+	],
+	"require": {}
+}

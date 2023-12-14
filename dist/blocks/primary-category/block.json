@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mar-primary-category/primary-category",
+  "version": "0.0.1",
+  "title": "Primary Category",
+  "category": "theme",
+  "icon": "category",
+  "description": "Display posts with primary cateogories.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "primary-category",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "selectedPostType": {
+      "type": "string",
+      "default": "post"
+    },
+    "selectedTaxonomy": {
+      "type": "string",
+      "default": "category"
+    },
+    "numberOfItems": {
+      "type": "number",
+      "default": 3
+    },
+    "selectedTerm": {
+      "type": "integer",
+      "default": 0
+    },
+    "selectedTermsTaxonomy": {
+      "type": "string",
+      "default": "category"
+    },
+    "queryPrimaryCategory": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
